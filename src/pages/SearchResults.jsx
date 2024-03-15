@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { searchMovie } from "../fetch";
-import { MovieRow, Poster } from "../components";
-import { Stack, Typography } from "@mui/material";
+import { Poster } from "../components";
+import { Stack } from "@mui/material";
 
 const SearchResults = () => {
   let [movies, setMovies] = useState([]);

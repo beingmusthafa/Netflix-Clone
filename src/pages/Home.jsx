@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MovieRow, MainPoster, Genre } from "../components";
+import { MainPoster, Genre } from "../components";
 import { fetchGenres } from "../fetch";
 const Home = () => {
   let [genres, setGenres] = useState([]);

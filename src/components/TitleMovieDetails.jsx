@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import { PlayArrow } from "@mui/icons-material";
 
 const TitleMovieDetails = ({ movie }) => {

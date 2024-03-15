@@ -1,6 +1,5 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import React, { useState, useEffect } from "react";
-import Poster from "./Poster";
 import { fetchByGenre } from "../fetch";
 import MovieRow from "./MovieRow";
 

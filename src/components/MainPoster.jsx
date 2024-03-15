@@ -1,6 +1,4 @@
-import { Height } from "@mui/icons-material";
 import { Box } from "@mui/material";
-import { width } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import TitleMovieDetails from "./TitleMovieDetails";
 import { fetchPopular } from "../fetch";

@@ -1,5 +1,5 @@
-import { Box, Stack, Typography } from "@mui/material";
-import React, { useState, useEffect } from "react";
+import { Stack } from "@mui/material";
+import React from "react";
 import Poster from "./Poster";
 
 const MovieRow = ({ movies }) => {
